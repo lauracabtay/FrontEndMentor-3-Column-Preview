@@ -1,89 +1,170 @@
-body {
-  background-color: hsl(0, 0%, 95%);
-  height: 100vh;
+@media only screen and (min-width: 375px) {
+  body {
+    margin: 50px 10px;
+  }
+
+  h1 {
+    font-family: "Big Shoulders Display", cursive;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  p {
+    font-family: "Lexend Deca";
+    font-size: 11px;
+    color: white;
+    line-height: 2;
+  }
+
+  .card {
+    display: block;
+  }
+
+  .card1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .card2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+  }
+
+  .card3 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  .button-1 {
+    color: hsl(31, 77%, 52%);
+  }
+
+  .button-2 {
+    color: hsl(184, 100%, 22%);
+  }
+
+  .button-3 {
+    color: hsl(179, 100%, 13%);
+  }
+
+  .button {
+    margin-top: 40px;
+    border-radius: 25px;
+    background-color: white;
+    border: 2px solid white;
+    padding: 12px 25px;
+    font-family: "Lexend Deca";
+  }
+
+  .button:hover,
+  .button:active {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+  }
+
+  .attribution {
+    font-size: 11px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
 }
 
-h1 {
-  font-family: "Big Shoulders Display", cursive;
-  text-transform: uppercase;
-  color: white;
-}
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: hsl(0, 0%, 95%);
+    height: 100vh;
+  }
 
-p {
-  font-family: "Lexend Deca";
-  font-size: 11px;
-  color: white;
-  line-height: 2;
-}
+  h1 {
+    font-family: "Big Shoulders Display", cursive;
+    text-transform: uppercase;
+    color: white;
+  }
 
-.container {
-  display: flex;
-  justify-content: center;
-  height: auto;
-  height: 100vh;
-}
+  p {
+    font-family: "Lexend Deca";
+    font-size: 11px;
+    color: white;
+    line-height: 2;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    height: 100vh;
+  }
 
-.card {
-  display: inline-flex;
-  max-width: 50%;
-  margin: auto;
-}
+  .card {
+    display: inline-flex;
+    max-width: 50%;
+    margin: auto;
+  }
 
-.card1 {
-  background-color: hsl(31, 77%, 52%);
-  padding: 40px;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-}
+  .card1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
 
-.card2 {
-  background-color: hsl(184, 100%, 22%);
-  padding: 40px;
-}
+  .card2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+  }
 
-.card3 {
-  background-color: hsl(179, 100%, 13%);
-  padding: 40px;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
-}
+  .card3 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
 
-.button {
-  margin-top: 40px;
-  border-radius: 25px;
-  background-color: white;
-  border: 1px solid white;
-  padding: 12px 25px;
-  font-family: "Lexend Deca";
-}
+  .button-1 {
+    color: hsl(31, 77%, 52%);
+  }
 
-.button:hover,
-.button:active {
-  background-color: transparent;
-  color: white;
-  border: 2px solid white;
-  cursor: pointer;
-}
+  .button-2 {
+    color: hsl(184, 100%, 22%);
+  }
 
-.button-1 {
-  color: hsl(31, 77%, 52%);
-}
+  .button-3 {
+    color: hsl(179, 100%, 13%);
+  }
 
-.button-2 {
-  color: hsl(184, 100%, 22%);
-}
+  .button {
+    margin-top: 40px;
+    border-radius: 25px;
+    background-color: white;
+    border: 2px solid white;
+    padding: 12px 25px;
+    font-family: "Lexend Deca";
+  }
 
-.button-3 {
-  color: hsl(179, 100%, 13%);
-}
+  .button:hover,
+  .button:active {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+  }
 
-.attribution {
-  font-size: 11px;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
+  .attribution {
+    position: fixed;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
 }
